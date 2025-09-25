@@ -3,3 +3,28 @@ body
     margin: 0;
 
 }
+ul{
+    list-style: none;
+}
+
+#menubar .menu{
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    font-size: 20px;
+    text-transform:uppercase;
+}
+#menubar .menu .menu-con{
+    display: none;
+    background-color: #fff;
+
+}
+#menubar .menu .menu-con li{
+    padding: 8px 13px;
+    color: #000;
+}
+#menubar .menu li:hover .menu-con{
+    display: inline-block;
+    position: absolute;
+
+}
